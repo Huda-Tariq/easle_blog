@@ -58,77 +58,255 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+ 
+
+ .overflow {
+    overflow: hidden;
+
+ }
+ .container {
+        margin: auto;
+        height: 4000px;
+    }
+
 
    header {
+    background-color: #221F20;
+    margin: none;
+
+   }
+
+   .mainmenu {
+    overflow: hidden;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+   }
+
+        .mainmenu li {
+                
+                display: inline-block;
+                padding-right: 2%;
+                margin: 0 1%; 
+                }
+            
+             a {
+             text-decoration: none;
+             color: #fff;
+             }
+
+            
+    .listb {
+    float: right;
+    width: auto;
+    padding-right: 2em;
+    size: 1em;
+    padding-bottom: 0;
+    font-family: 'open sans';
+    list-style: none;
+    color: #fff;
+    }
+
+   .easellogo {
+    height: 3em;
+    position: center;
+    width: 3em;
+    padding-bottom: 3em;
+    padding-top: 2em;
+    padding-right: 0;
+    width: 3em;
+    padding-bottom: 1em;
+    float: left;
+    }
+
+
+    .listb {
+    float: right;
+    width: auto;
+    font-size: .75em;
+    padding-right: 2em;
+    line-height: 1em;
+    size: .5em;
+    font-family: 'open sans';
+    list-style: none; 
+    }
+
+    .signin {
+        border: solid;
+        padding top: 3px;
+        padding-left: 4px;
+
+        float: right;
+        font-size: .75em;
+        position: relative;    
+        }
+
+
+    .login {
+        padding top: 3em;
+        float: right;
+        padding-right: 1em;
+        font-size: .75em;
+    }
+
+
+    .textbox {
+        height: 200px;
+        width: 400px;
+        background-color: black;
+        }
+
+    .position{
+        position: absolute;
+        top: 10em;
+    }
+
+    /* .mentor {
+      background-image: url(../img/featured_mentor_rajniparera.jpg);
+      color: #fff;
+      font-size: 1em;
+      text-align: center;
+      padding-top: 50%;
+      padding-bottom: 10%;
+      line-height: 1.5em;
+      color: #fff;
+      background-size: cover; 
+      height: auto;
+      width: 100%;
+      }*/
+
+      .size {
+        height: auto;
+        width: 100%;
+      }
+
+
+      .artist {
+      background-image: url(../img/elly_smallwood.jpg);
+      color: red;
+      font-size: 1em;
+      text-align: center;
+      padding-top: 50%;
+      padding-bottom: 10%;
+      line-height: 1.5em;
+      color: #fff;
+      background-size: cover; 
+      height: auto;
+      width: 100%;
+      }
+     
+    .space {
+      background-image: url(../img/featured_space.jpg);
+      color: #fff;
+      font-size: 1em;
+      text-align: center;
+      padding-top: 50%;
+      padding-bottom: 10%;
+      line-height: 1.5em;
+      color: #fff;
+      background-size: cover; 
+      height: auto;
+      width: 100%;
+      }
+    
+  
+
+.middlebit{
+    background-image:  url(../img/streetetiquette_red.jpg);
+    background-color: #fff;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 10%;
+    line-height: 1.5em;
+    color: #fff;
+    background-size: cover; 
+    height: auto;
+    width: 100%;
+    }
+
+
+.footerbit {
+    background-color: #7B7168;
     height: 10em;
+    color: #fff
+}
+
+ .footernav {
+    float: left;
+ }
+
+
+ .social {
+    height: 3em;
+    width: 3em;
+    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-right: 0;
+    display: inline;
+    }
+
+
+    h3 {
+    font-family: 'oswald';
+    font-size: 1em;
+    color: #fff;
+    width: 3em;
+    text-align: left;
+    }
+
+
+
+
+    header {
+    height: 6.5em;
+    width: 100%;
     background-color: #221F20;
     color: #FFF;
+
+    }
+
+
+    .topnav {
+    display: inline-block;
+    float: right;
+    display: inline-block;
+    color: #fff;
     overflow: hidden;
     }
+
+
+    .topnavparent {
+    overflow: hidden;
+    }
+  
+
+
+
 
     .easellogo {
     max-width: 4em; 
     position: center;
     padding-left: 1.5em;
-    padding-top: 1.5em;
-  
+    padding-top: 1em;
     }
+
     .banner {
       width: 100%;
-
     }
 
-    .element {
-      background-image: url (..img/featured_space_image.jpg);
-      height: 100%;
-    }
-
-   body{
-    background-color: #fff;
-    color: #333;
-    font-size: 1em;
-    margin: auto; 
-    height: 2000px;
-    }
-
-
-   ul {
-    float: right;
-    display: inline-block;
-    list-style-type: none;
-    color: #ED2738;
-    overflow: hidden;
-   }
-
-.listb {
-    float: right;
-    width: auto;
-    padding-right: 2em;
-    size: 1em;
-    padding-bottom: 5em;
-    font-family: 'open sans';
-    }
-
-
-h1 {
+h4 {
     font-family: 'oswald';
-    font-size: 2em;
+    font-size: 1em;
     color: #9B1C1F;
 }
 
 
 .container {
-    max-width: 600px;
+    max-width: auto;
     margin: auto;
-    overflow: hidden;
 }
 
-  
-a {
-    color: #FFF;
-    font-family: 'open sans';
-    text-decoration: none;
-  }
 
 
 
@@ -157,11 +335,13 @@ a {
 
 
 
-/* ==========================================================================
+
+
+ ==========================================================================
    Media Queries
    ========================================================================== 
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 30em) {
 
 }
 
@@ -174,7 +354,7 @@ a {
 
 /* ==========================================================================
    Helper classes
-   ========================================================================== */
+   ========================================================================== 
 
 .hidden {
     display: none !important;
