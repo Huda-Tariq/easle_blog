@@ -8,7 +8,30 @@
 }
 
  
+@media (min-width: 1000px) {
 
+	.containerright {
+	float: right;
+	padding-right: 5%;
+}
+
+.containerleft {
+	float: left;
+	padding-left: 5%
+}
+.postdiv {
+	position: relative;
+    bottom: 10em;
+    right: 0e;
+    left: 0;
+}
+.ellycontainer{
+	float: right;
+	clear: right;
+	
+}
+
+}
   
 
 
@@ -24,13 +47,13 @@
     	clear: right;
     	padding-right: 20px;
     }
-.containerright {
-	float: right;
+        .postdiv {
+	 position: relative;
+    bottom: 10em;
+    right: 0;
+    left: 10em;
 }
 
-.containerleft {
-	float: left;
-}
 
 }
 
@@ -43,6 +66,7 @@
     .signin .login {
     	font-size: 2em;
     }
+
 }
 
 @media (min-width: 60em) {
@@ -82,10 +106,5 @@
 	clear: right;
 }
 }
-
-
-
-
-
 
 

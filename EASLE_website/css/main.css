@@ -87,7 +87,13 @@ textarea {
 
 
  .container {
-  margin: auto;
+    margin: auto auto;
+  }
+
+  .centerplease {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
   }
  
 
@@ -163,6 +169,26 @@ textarea {
     background-position: center;
     }
 
+    .ellycover{
+    background-image:  url(../img/elly_small_wood_cover.jpg);
+    background-color: #fff;
+    background-size: cover; 
+    height: 100%;
+    background-position: center;
+    }
+
+  .ellytext{
+    color: black;
+    font-size: 1em;
+  }
+
+  .ellycontainer {
+   width: 30em;
+   margin: auto auto;
+   text-align: left;
+   }
+
+
 
     .textbox {
     height: 150px;
@@ -185,6 +211,18 @@ textarea {
     padding-bottom: 10%;
     line-height: 1.5em;
     color: #fff;
+    max-width: 20em;
+    margin: auto;
+    }
+    
+     .descriptionelly {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 10%;
+    line-height: 1.5em;
+    color: black;
     max-width: 20em;
     margin: auto;
     }
@@ -327,15 +365,15 @@ div {
     margin: none;
 }
 .containerright {
-width: auto;
-height: 100%;
+width: auto auto;
+height: initial;
 padding-top: 15px;
 padding-bottom: 15px;
 overflow: hidden;
 }
 
 .containerleft {
-width: auto;
+width: auto auto;
 height: 100%;
 padding-top: 15px;
 padding-bottom: 15px;
@@ -345,10 +383,6 @@ overflow: hidden;
 .max {
 text-align: center;
 }
-
-
-
-
 
 
 
