@@ -1,0 +1,91 @@
+
+@media (min-width: 45em) {
+
+	.containerbox {
+		width: 35em;
+		height: auto;
+	}
+}
+
+ 
+
+  
+
+
+@media (min-width: 760px) {
+
+	.description {
+		font-size: 2em;
+		height: auto;
+	}
+
+    .socialicon {
+    	float: right;
+    	clear: right;
+    	padding-right: 20px;
+    }
+.containerright {
+	float: right;
+}
+
+.containerleft {
+	float: left;
+}
+
+}
+
+
+@media (max-width: 45em) {
+
+/*    .socialicon {
+    	display: inline-block;
+    }*/
+    .signin .login {
+    	font-size: 2em;
+    }
+}
+
+@media (min-width: 60em) {
+
+	.description {
+	font-size: 2em;
+	padding-top: 50%;
+	padding-bottom: 10%;
+	}
+
+ 
+}
+
+
+
+@media (max-width: 50em) {
+
+	.closenav {
+    visibility: hidden;   
+}
+   .footernav {
+	visibility: hidden;
+	display: none;
+	
+}
+
+
+}
+
+
+
+
+@media (min-width: 50em) {
+
+.socialicon {
+	float; right;
+	clear: right;
+}
+}
+
+
+
+
+
+
+
